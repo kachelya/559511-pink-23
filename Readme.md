@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Егор Сметанин](https://up.htmlacademy.ru/adaptive/23/user/559511).
-* Наставник: `Неизвестно`.
+* Наставник: [Оксана Сергеева](https://htmlacademy.ru/profile/oksana). 
 
 ---
 
