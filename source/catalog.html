@@ -1,12 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Каталог</title>
 </head>
-<body>
 
+<body class="page__body">
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <a class="page-header__logo" href="index.html">
+        <img class="page-header__logo-image" src="img/svg/logotype-mobile.svg" width="74" height="23"
+          alt="Логотип сайта">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button" aria-label="Открыть меню"></button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Фотографии</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Конкурс</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Html academy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="catalog-main">
+    <h1 class="catalog-main__title title">Фотографии пользователей</h1>
+    <section class="photos">
+      <div class="photos__wrapper">
+        <h2 class="visually-hidden">Фотографии</h2>
+        <p class="photos__intro">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
+        </p>
+        <div class="block-photo">
+          <img class="block-photo__img" src="img/catalog_photo/panorama-mobile.jpg" alt="панорама леса">
+          <p class="block-photo__user">
+            <span class="block-photo__user-name">Анна</span>
+            <span class="block-photo__user-time">(5 минут назад)</span>
+          </p>
+          <p class="block-photo__comment">Прыгать или нет? Напишите в комментарии свой совет исмотрите прямую трансляцию в перископе, задавайте свои
+            вопросы!
+          </p>
+          <span class="block-photo__like-number">Нравится: 215</span>
+        </div>
+        <div class="block-photo">
+          <img class="block-photo__img" src="img/catalog_photo/photo-1-mobile.jpg" alt="машина">
+          <p class="block-photo__user">
+            <span class="block-photo__user-name">Левон</span>
+            <span class="block-photo__user-time">(5 часов назад)</span>
+          </p>
+          <p class="block-photo__comment">Вчера он на луну летал, сегодня в руки к нам попал.
+          </p>
+          <span class="block-photo__like-number">Нравится: 356</span>
+        </div>
+        <div class="block-photo">
+          <img class="block-photo__img" src="img/catalog_photo/photo-2-mobile.jpg" alt="барабаны">
+          <p class="block-photo__user">
+            <span class="block-photo__user-name">Антон</span>
+            <span class="block-photo__user-time">(12 часов назад)</span>
+          </p>
+          <p class="block-photo__comment">Соседи будут рады!
+          </p>
+          <span class="block-photo__like-number">Нравится: 666</span>
+        </div>
+        <div class="block-photo">
+          <img class="block-photo__img" src="img/catalog_photo/photo-3-mobile.jpg" alt="окна">
+          <p class="block-photo__user">
+            <span class="block-photo__user-name">Борис</span>
+            <span class="block-photo__user-time">(20 часов назад)</span>
+          </p>
+          <p class="block-photo__comment">Здесь могла быть ваша цитата о высоком и вечном.
+          </p>
+          <span class="block-photo__like-number">Нравится: 215</span>
+        </div>
+        <div class="block-photo">
+          <img class="block-photo__img" src="img/catalog_photo/photo-4-mobile.jpg" alt="палатка">
+          <p class="block-photo__user">
+            <span class="block-photo__user-name">Сергей</span>
+            <span class="block-photo__user-time">(25 часов назад)</span>
+          </p>
+          <p class="block-photo__comment">Самая кубанская в мире!
+          </p>
+          <span class="block-photo__like-number">Нравится: 4</span>
+        </div>
+        <div class="block-photo">
+          <img class="block-photo__img" src="img/catalog_photo/photo-5-mobile.jpg" alt="карьер">
+          <p class="block-photo__user">
+            <span class="block-photo__user-name">Максим</span>
+            <span class="block-photo__user-time">(40 часов назад)</span>
+          </p>
+          <p class="block-photo__comment">Где снег-то?
+          </p>
+          <span class="block-photo__like-number">Нравится: 150</span>
+        </div>
+        <div class="block-photo">
+          <img class="block-photo__img" src="img/catalog_photo/photo-6-mobile.jpg" alt="крыло самолета">
+          <p class="block-photo__user">
+            <span class="block-photo__user-name">Надежда</span>
+            <span class="block-photo__user-time">(45 часов назад)</span>
+          </p>
+          <p class="block-photo__comment">Всем GM и взаимные лайки!
+          </p>
+          <span class="block-photo__like-number">Нравится: 2560</span>
+        </div>
+        <section class="upload">
+          <div class="upload-wrapper">
+            <h2 class="visually-hidden">Загрузка изображений</h2>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
