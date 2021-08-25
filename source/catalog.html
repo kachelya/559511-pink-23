@@ -22,7 +22,7 @@
             <a class="main-nav__link" href="index.html">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link">Фотографии</a>
+            <a class="main-nav__link main-nav__link--current">Фотографии</a>
           </li>
           <li class="main-nav__item">
             <a class="main-nav__link" href="form.html">Конкурс</a>
@@ -40,7 +40,7 @@
       <div class="photos__wrapper">
         <h2 class="photos__title">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает
           ваших?</h2>
-        <div class="block-photo">
+        <article class="block-photo">
           <img class="block-photo__img" src="img/catalog_photo/panorama-mobile.jpg" width="320" height="137"
             alt="панорама леса">
           <p class="block-photo__user">
@@ -51,9 +51,9 @@
             в перископе, задавайте свои
             вопросы!
           </p>
-          <span class="block-photo__like-number">Нравится: 215</span>
-        </div>
-        <div class="block-photo">
+          <button class="block-photo__like-number" type="button">Нравится: 215</button>
+        </article>
+        <article class="block-photo">
           <img class="block-photo__img" src="img/catalog_photo/photo-1-mobile.jpg" width="280" height="180"
             alt="машина">
           <p class="block-photo__user">
@@ -62,9 +62,9 @@
           </p>
           <p class="block-photo__comment">Вчера он на луну летал, сегодня в руки к нам попал.
           </p>
-          <span class="block-photo__like-number">Нравится: 356</span>
-        </div>
-        <div class="block-photo">
+          <button class="block-photo__like-number" type="button">Нравится: 356</button>
+        </article>
+        <article class="block-photo">
           <img class="block-photo__img" src="img/catalog_photo/photo-2-mobile.jpg" width="280" height="180"
             alt="барабаны">
           <p class="block-photo__user">
@@ -73,9 +73,9 @@
           </p>
           <p class="block-photo__comment">Соседи будут рады!
           </p>
-          <span class="block-photo__like-number">Нравится: 666</span>
-        </div>
-        <div class="block-photo">
+          <button class="block-photo__like-number" type="button">Нравится: 666</button>
+        </article>
+        <article class="block-photo">
           <img class="block-photo__img" src="img/catalog_photo/photo-3-mobile.jpg" width="280" height="180" alt="окна">
           <p class="block-photo__user">
             <span class="block-photo__user-name">Борис</span>
@@ -83,9 +83,9 @@
           </p>
           <p class="block-photo__comment">Здесь могла быть ваша цитата о высоком и вечном.
           </p>
-          <span class="block-photo__like-number">Нравится: 215</span>
-        </div>
-        <div class="block-photo">
+          <button class="block-photo__like-number" type="button">Нравится: 215</button>
+        </article>
+        <article class="block-photo">
           <img class="block-photo__img" src="img/catalog_photo/photo-4-mobile.jpg" width="280" height="180"
             alt="палатка">
           <p class="block-photo__user">
@@ -94,9 +94,9 @@
           </p>
           <p class="block-photo__comment">Самая кубанская в мире!
           </p>
-          <span class="block-photo__like-number">Нравится: 4</span>
-        </div>
-        <div class="block-photo">
+          <button class="block-photo__like-number" type="button">Нравится: 4</button>
+        </article>
+        <article class="block-photo">
           <img class="block-photo__img" src="img/catalog_photo/photo-5-mobile.jpg" width="280" height="180"
             alt="карьер">
           <p class="block-photo__user">
@@ -105,9 +105,9 @@
           </p>
           <p class="block-photo__comment">Где снег-то?
           </p>
-          <span class="block-photo__like-number">Нравится: 150</span>
-        </div>
-        <div class="block-photo">
+          <button class="block-photo__like-number" type="button">Нравится: 150</button>
+        </article>
+        <article class="block-photo">
           <img class="block-photo__img" src="img/catalog_photo/photo-6-mobile.jpg" width="280" height="180"
             alt="крыло самолета">
           <p class="block-photo__user">
@@ -116,33 +116,33 @@
           </p>
           <p class="block-photo__comment">Всем GM и взаимные лайки!
           </p>
-          <span class="block-photo__like-number">Нравится: 2560</span>
-        </div>
+          <button class="block-photo__like-number" type="button">Нравится: 2560</button>
+        </article>
       </div>
     </section>
     <section class="upload">
       <div class="upload__wrapper">
         <h2 class="upload__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</h2>
-        <form class="block-editing" action="https://echo.htmlacademy.ru" method="POST">
+        <form class="block-editing" action="https://echo.htmlacademy.ru" name="form" method="POST">
           <img class="block-editing__img" src="img/catalog_photo/photo-7-mobile.jpg" width="280" height="374"
             alt="заснеженая дорога">
           <ul class="editing-list">
             <li class="editing-list__item">
-              <a class="editing-list__button button-crop editing-list__button--active" href="#"
-                aria-label="обрезать"></a>
+              <button class="editing-list__button editing-list__button--crop editing-list__button--active" type="button"
+                aria-label="обрезать"></button>
             </li>
             <li class="editing-list__item">
-              <a class="editing-list__button button-fill" href="#" aria-label="заливка"></a>
+              <button class="editing-list__button editing-list__button--fill" type="button" aria-label="заливка"></button>
             </li>
             <li class="editing-list__item">
-              <a class="editing-list__button button-contrast" href="#" aria-label="контраст"></a>
+              <button class="editing-list__button editing-list__button--contrast" type="button" aria-label="контраст"></button>
             </li>
           </ul>
           <div class="block-editing__range block-editing__range--crop"></div>
           <div class="block-editing__range block-editing__range--fill"></div>
           <div class="block-editing__range block-editing__range--contrast"></div>
           <button class="block-editing__submit" type="submit">Запостить</button>
-          <button class="block-editing__cancel" type="button" disabled>Отмена</button>
+          <button class="block-editing__cancel" type="reset" disabled>Отмена</button>
         </form>
       </div>
     </section>
